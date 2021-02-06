@@ -1,0 +1,24 @@
+base_url = "https://blog.morrone.dev"
+compile_sass = true
+minify_html = true
+theme = "after-dark"
+generate_feed = true
+smart_punctuation = true
+default_language = "en"
+
+taxonomies = [
+    {name = "categories"},
+    {name = "tags"},
+]
+
+[markdown]
+highlight_code = true
+
+[extra]
+author = "Federico Morrone"
+after_dark_menu = [
+    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+]
+after_dark_title = "Blog"
